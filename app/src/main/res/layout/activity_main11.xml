@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11"
+    android:background="#E91E63"
+    android:gravity="center">
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+
+      android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/mensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="mensaje"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/regresar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="120dp"
+        android:text="Volver" />
+
+    <TextView
+        android:id="@+id/mensaje2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Gracias por comprar con nosotros"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+  </LinearLayout>
+
+</RelativeLayout>
